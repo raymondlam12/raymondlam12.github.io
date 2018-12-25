@@ -1,46 +1,43 @@
 /* Helper CSS */
-body {
-	background-color: #222;
-}
 
 .bottom-margin {
-	margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .top-margin {
-	margin-top: 60px;
+    margin-top: 60px;
 }
 
 .footer-absolute {
-	font-family: Helvetica;
-	position: fixed;
-	bottom: 0px;
-	width: 100%;
-	background-color: white;
-	color:black;
+    font-family: Helvetica;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: white;
+    color:black;
 }
 
 .underline{
-	border-bottom: 2px solid #419df4;
-	width: 100%;
-	display: block;
+    border-bottom: 2px solid #419df4;
+    width: 100%;
+    display: block;
 }
 
 /* Navbar customizations */
 .navbar-header a {
-	color: white !important;
+    color: white !important;
 }
 
 .navbar-header a:hover {
-	color: #419df4 !important;
+    color: #419df4 !important;
 }
 
 .navbar-collapse a {
-	color: white !important;
+    color: white !important;
 }
 
 .navbar-collapse a:hover {
-	color: #419df4 !important;
+    color: #419df4 !important;
 }
 
 /* CSS used to center */
@@ -59,63 +56,63 @@ body {
 
 /* index css */
 .content {
-	font-family: Helvetica;
+    font-family: Helvetica;
 }
 
 .content h5 {
-	font-size: 1.2em;
+    font-size: 1.2em;
 }
 
 .content h4 {
-	font-size: 1.5em;
+    font-size: 1.5em;
 }
 
 .content h3 {
-	font-size: 2em;
+    font-size: 2em;
 }
 
 .content h2 {
-	font-size: 2.5em;
+    font-size: 2.5em;
 }
 
 .content h1 {
-	font-size: 4em;
+    font-size: 4em;
 }
 
 .content p {
-	font-size: 1.1em;
-	line-height: 1.8em;
+    font-size: 1.1em;
+    line-height: 1.8em;
 }
 
 .content p > a{
-	color: #419df4;
+    color: #419df4;
 }
 
 .content a {
-	color: black;
+    color: black;
 }
 
 .intro a:hover {
-	color: black;
+    color: black;
 }
 
 .contact-icon {
-	line-height: 10px;
-	font-size: 50px;
-	color: black;
+    line-height: 10px;
+    font-size: 50px;
+    color: black;
 }
 
 .contact-icon:hover {
-	color: #419df4;
+    color: #419df4;
 }
 
 .contact-info {
-	color:black;
-	font-size: 1.8em;
+    color:black;
+    font-size: 1.8em;
 }
 
 .contact-info:hover {
-	color: #419df4;
+    color: #419df4;
 }
 
 /* about css */
@@ -131,7 +128,7 @@ body {
 }
 
 .intro-rounded-box:hover {
-	border: 2px dashed #419df4;
+    border: 2px dashed #419df4;
 }
 
 .rounded-box {
@@ -146,64 +143,84 @@ body {
 }
 
 .rounded-box:hover {
-	border: 2px dashed #419df4;
+    border: 2px dashed #419df4;
 }
 
 .rounded-box h2 {
-	font-size: 1.2em;
-	padding: 0px;
-	margin: 10px;
-	font-weight: bold;
+    font-size: 1.2em;
+    padding: 0px;
+    margin: 10px;
+    font-weight: bold;
 }
 
 .rounded-box h3 {
-	font-size: 1.0em;
-	padding: 0px;
-	margin: 10px;
+    font-size: 1.0em;
+    padding: 0px;
+    margin: 10px;
 }
 
 .rounded-box img {
-	margin-top: 5px;
-	margin-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .rounded-box ul {
-	text-align: left;
+    text-align: left;
 }
 
 .rounded-box ul li:before {
-	font-size: 1.0em;
-	list-style-type: circle;
-	font-family: Helvetica;
+    font-size: 1.0em;
+    list-style-type: circle;
+    font-family: Helvetica;
 }
 
 /* blog css */
 .blog-listing {
-	margin-bottom:20px;
+    margin-bottom:20px;
 }
 
 .blog-listing a {
-	color: #419df4;
+    color: #419df4;
 }
 
 .blog-listing h5 {
-	color:#A9A9A9;
+    color:#A9A9A9;
 }
 
 /* actual blog post css */
 .blog-post {
-	margin-bottom:30px;
+    margin-bottom:30px;
 }
 
 .blog-post h5 {
-	color:#A9A9A9;
+    color:#A9A9A9;
 }
 
 .blog-post h2 {
-	color: black;
+    color: black;
 }
-
 
 .blog-post a {
-	color: #419df4;
+    color: #419df4;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+/* Styling Contacts*/
+.contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contacts-element {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
 
